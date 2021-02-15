@@ -17,14 +17,12 @@ Start with a descriptive and succinct name for your project. Change the above wi
 - [Screens](#screens)
     - [Wireframes](#wireframes)
 
-
+_Table of content generated using VSCode plugin [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)_
 
 # Introduction
-==============
 
 ## Purpose
-The introduction to your SRS is very important. It sets the expectation for the product you’re building.
-So, start by defining the purpose of your product.
+Set the expectation for the product you’re building. So, start by defining the purpose of your product.
 
 ## Scope
 Describe the software being specified. Include benefits, objectives, and goals. This should relate to overall business goals, especially if teams outside of development will have access to the SRS
@@ -33,13 +31,12 @@ Describe the software being specified. Include benefits, objectives, and goals. 
 Include any non-trivial definition or acronym used in the document.
 
 # Overall Description
-=====================
 Describe what you’re going to build. Is it an update to an existing product? Is it a new product? Is it an add-on to a product you’ve already created?
 
 These are important to describe upfront, so everyone knows what you’re building.
 
 ## User classes
-User classes and characteristics are critical. You’ll need to define who is going to use the product and how. Don't forget to include each user needs.
+User classes and characteristics are critical. You’ll need to define who (different roles) is going to use the product and how. Don't forget to include each user needs.
 
 ## Assumptions and Dependencies
 There might be factors that impact your ability to fulfill the requirements outlined in this document. What are those factors?
@@ -49,7 +46,6 @@ Are there any assumptions you’re making that could turn out to be false? You s
 Finally, you should note if your project is dependent on any external factors. This might include software components you’re reusing from another project.
 
 # System Features and Requirements
-==================================
 This is where you detail the specific requirements for building your product.
 
 ## Functional Requirements
@@ -76,7 +72,6 @@ There are several types of interfaces you may have requirements for, including:
 
 ## Non-functional Requirements
 Non-functional requirements are restrictions on the system or the development process. Non-functional requirements can be more critical than functional ones. If they are not met, the system is useless!
-
 
 # Screens
 Identifying the individual screens (for an app), or pages (for a website) are where a product’s shape starts to become clear. They are a distillation of the user stories into a set of distinct sections that satisfy the needs and behaviors identified so far. The process of outlining an application’s screens may also highlight any requirements or considerations that have been overlooked up to this point.

@@ -1,4 +1,4 @@
-# Easy to use Template for Software Requirements Specification
+# Especificación de Requerimientos de Software
 
 # Índice
 - [Introducción](#introducción)
@@ -53,7 +53,7 @@ El producto que desarrollamos es un videojuego, el cual se compone de una serie 
 Algunos factores que puedan impactar nuestra habilidad para cumplir con los requerimientos enumerados en este documento incluyen:
 - Tiempo de implementación
 - Recursos tecnológicos disponibles
-- ...
+- Mantenimiento de componentes externos
 
 <!-- Are there any assumptions you’re making that could turn out to be false? You should include those here, as well. -->
 
@@ -61,23 +61,25 @@ Para el desarrollo de este proyecto se asume que:
 - El usuario tendrá acceso a una computadora con conexión a internet para poder ejecutar el juego
 - El usuario no requiere de herramientas externas de accesibilidad como lectores de pantalla
 - El usuario cuenta con conocimientos básicos de pensamiento crítico y de física 
+- La base de datos será implementada en un servidor funcional y disponible
 
 <!-- Finally, you should note if your project is dependent on any external factors. This might include software components you’re reusing from another project. -->
 Igualmente, el proyecto depende de otros factores externos, tales como:
 - La implementación en la página web
 - Uso de librerías de Unity para su desarrollo
+- Estatus de base de datos y servicios web
 
 
 # Características del Sistema y Requerimientos
 <!-- This is where you detail the specific requirements for building your product. -->
 
 ## Requerimientos Funcionales
-The functional requirements describe the services and functions of a system. Functional requirements must be precise and unambiguous.
+<!-- The functional requirements describe the services and functions of a system. Functional requirements must be precise and unambiguous.
 
-Include user stories, which are short descriptions of a feature, told from the perspective of one of your end user profiles. They are typically structured in the following fashion:
+Include user stories, which are short descriptions of a feature, told from the perspective of one of your end user profiles. They are typically structured in the following fashion: -->
 
 <!-- |__Short identifier__|_Como [type of user], requiero [some goal] para [some reason]_|_Must have_|_Write here any additional consideration_| -->
-|Title|User story|Importance|Notes|
+|Título|Historia de usuario|Importancia|Notas|
 |---|---|---|---|
 |__Elementos interactivos__|_Como **jugador**, requiero elementos gráficos visualmente atractivos y controles que me permitan interactuar con los elementos_|_Prioridad: 1_| Las formas de interacción con los controles del juego deberán ser intuitivas y fáciles de usar |
 |__Dinámica del juego__|_Como **jugador**, requiero que los objetos interactivos (naves y planetas) se comporten de manera predecible y realista_| _Prioridad: 2_ | Tener una dinámica físicamente realista es importante para cumplir con los objetivos de pensamiento crítico en este proyecto |
@@ -116,12 +118,12 @@ This has the dual purpose of both contributing to a more accurate vision of the 
 Se incluirán diversas pantallas para el proyecto, como:
 - Juego
   - Inicio
-  - Registro: Ingresar alias, edad y género :oct: 
+  - Registro: Ingresar alias, edad y género :octocat: 
   - Nivel: Elementos interactivos e indicador de puntaje
   - Información: Mostrará información relevante sobre las carreras STEM
   - Final: Enseñar información de la sesión al terminar el juego
 - Dashboard:
-  - ¯\\\_(ツ)_/¯
+  - TBD
 
 ## Wireframes
 Wireframes are simple page layouts that outline the size and placement of elements, and features on a page. They are generally devoid of color, font styles, logos or any design elements.

@@ -1,7 +1,7 @@
 # Easy to use Template for Software Requirements Specification
-Start with a descriptive and succinct name for your project. Change the above with the name of your project
+Start with a descriptive and succinct name for your project. Change the above with the name of your project.
 
-# Table of content
+# Table of Content
 
 - [Introduction](#introduction)
     - [Purpose](#purpose)

@@ -81,6 +81,7 @@ Include user stories, which are short descriptions of a feature, told from the p
 <!-- |__Short identifier__|_Como [type of user], requiero [some goal] para [some reason]_|_Must have_|_Write here any additional consideration_| -->
 |Título|Historia de usuario|Importancia|Notas|
 |---|---|---|---|
+|__Generar niveles__|_Como **jugador**, requiero obstáculos para divertirme mientras hago uso del software_|_Prioridad: 1_| Se generarán niveles con obstáculos y dinámicas cambiantes, como: variación de la masa y distancia de los objetos, cantidad de revoluciones orbitales requeridas, cantidad de planetas, entre otros. |
 |__Elementos interactivos__|_Como **jugador**, requiero elementos gráficos visualmente atractivos y controles que me permitan interactuar con los elementos_|_Prioridad: 1_| Las formas de interacción con los controles del juego deberán ser intuitivas y fáciles de usar |
 |__Dinámica del juego__|_Como **jugador**, requiero que los objetos interactivos (naves y planetas) se comporten de manera predecible y realista_| _Prioridad: 2_ | Tener una dinámica físicamente realista es importante para cumplir con los objetivos de pensamiento crítico en este proyecto |
 |__Puntuación__|_Como **jugador** requiero tener registro de mi puntuación en diferentes niveles_|_Prioridad: 2_| Deberá definirse la puntuación otorgada para cada nivel |

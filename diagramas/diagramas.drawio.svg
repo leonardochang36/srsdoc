@@ -1,0 +1,164 @@
+<mxfile host="65bd71144e" modified="2021-02-22T21:01:24.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" etag="qTXN0yFoQVT-kS9Lrn3V" version="14.2.4" type="embed">
+    <diagram id="CNGVIRtz7uONiOdnMqPm" name="Page-1">
+        <mxGraphModel dx="1787" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-740" y="220" width="210" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Jugador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-810" y="260" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Jugar juego" style="ellipse;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-685" y="270" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;rotation=-30;" vertex="1" parent="1">
+                    <mxGeometry x="-750" y="100" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Administrador de juego" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-810" y="530" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="11" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Administrador de datos" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-810" y="390" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Leer y editar base de datos" style="ellipse;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+                    <mxGeometry x="-693.75" y="390" width="117.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="14" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Monitorear estado del juego" style="ellipse;shadow=0;whiteSpace=wrap;spacing=8;" vertex="1" parent="1">
+                    <mxGeometry x="-690" y="580" width="110" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&amp;lt;&amp;lt;Negocio&amp;gt;&amp;gt;&lt;br&gt;0rb1t" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-680" y="224" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="15" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="15" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Ver dashboard" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-687.5" y="480" width="105" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="26" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Jugador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-460" y="260" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Jugar juego" style="ellipse;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-335" y="270" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="27" target="29">
+                    <mxGeometry x="-0.3982" y="41" width="160" relative="1" as="geometry">
+                        <mxPoint x="-190" y="310" as="sourcePoint"/>
+                        <mxPoint x="-149.823269130094" y="296.9321400446106" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="Ver tutorial" style="ellipse;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-360" y="180" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="NIVEL 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="-665" y="670" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Ingresar datos" style="ellipse;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-208.12" y="180" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="27" target="31">
+                    <mxGeometry x="0.0116" y="15" width="160" relative="1" as="geometry">
+                        <mxPoint x="-230" y="440" as="sourcePoint"/>
+                        <mxPoint x="-70" y="440" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="35" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Administrador de datos" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-460" y="560" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Leer y editar base de datos" style="ellipse;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+                    <mxGeometry x="-343.75" y="560" width="117.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="36" target="39">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-329.90652884639536" y="550.466311235441" as="sourcePoint"/>
+                        <mxPoint x="-310.1021019091525" y="500.0017675115266" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="Completar niveles" style="ellipse;shadow=0;spacing=6;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-220" y="350" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Leer edad, género y datos registrados por los jugadores" style="ellipse;shadow=0;whiteSpace=wrap;spacing=4;" vertex="1" parent="1">
+                    <mxGeometry x="-226.25" y="470" width="146.25" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="27" target="38">
+                    <mxGeometry x="0.3606" y="10" width="160" relative="1" as="geometry">
+                        <mxPoint x="-229.9529083596783" y="291.32120252801144" as="sourcePoint"/>
+                        <mxPoint x="-165.00796257077468" y="278.7112185620855" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="Ver pantalla de final de juego" style="ellipse;shadow=0;spacing=6;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-343.75" y="370" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="27" target="41">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-249.89322413067862" y="317.29577893219925" as="sourcePoint"/>
+                        <mxPoint x="-155.00796257077468" y="288.7112185620855" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="Leer puntuaciones de cada jugador" style="ellipse;shadow=0;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-170" y="550" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="36" target="43">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-275" y="570" as="sourcePoint"/>
+                        <mxPoint x="-198.85308288477108" y="540.0242432439886" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="Leer interés de jugadores en carreras STEM" style="ellipse;shadow=0;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-190" y="640" width="115" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Indicar nivel de interés en información de STEM" style="ellipse;shadow=0;whiteSpace=wrap;spacing=5;" vertex="1" parent="1">
+                    <mxGeometry x="-140" y="250" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="36" target="45">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-230" y="660" as="sourcePoint"/>
+                        <mxPoint x="-159.68293406456155" y="593.2166431802684" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="27" target="46">
+                    <mxGeometry x="0.0116" y="15" width="160" relative="1" as="geometry">
+                        <mxPoint x="-250.34937140095644" y="282.59955628302816" as="sourcePoint"/>
+                        <mxPoint x="-172.55016844658803" y="227.45012031899148" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="Generación de estadística y datos de valor" style="ellipse;shadow=0;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-335" y="670" width="115" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="36" target="49">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-233.60557688542917" y="621.2885604589221" as="sourcePoint"/>
+                        <mxPoint x="-164.42169939049745" y="661.04474320543" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

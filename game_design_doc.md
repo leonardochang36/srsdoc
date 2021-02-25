@@ -76,9 +76,10 @@ Física:
 Reglas:
 
 -   El jugador cuenta con tres oportunidades para poner el objeto en órbita
--   Con cada nivel varía la masa de la nave y la gravedad de cada planeta
 -   Se puede ajustar el ángulo de lanzamiento y la propulsión inicial
+-   Con cada nivel varía la masa de la nave, su distancia y la gravedad de cada planeta
 -   Si no se logra poner la nave en órbita, esta choca contra el planeta o se va a la lejanía
+-   La cantidad de puntos otorgados dependen de la cantidad de revoluciones orbitales conseguidas
 
 ![](images/image17.png)
 
@@ -91,7 +92,7 @@ Reglas:
     - Objetos
         - Ambiente
             - Fondo oscuro
-            - Estrellas, galaxias, cometas, nebulosas
+            - Estrellas, galaxias, cometas
         - Interactivos
             - Naves espaciales 
             - Satélites artificiales
@@ -101,7 +102,8 @@ Reglas:
 ## Características de cada nivel
 -   Objeto que se lanza: En cada nivel el jugador tiene como objetivo poner un objeto en órbita, este puede ser una nave espacial, un satélite de comunicación o incluso un satélite natural.
 -   Planeta: Todos los niveles tienen un planeta para el cual varía su masa, tamaño y color.
--   Obstáculos: La dificultad de cada nivel va incrementando y se empezarán a añadir obstáculos, los cuales son otros objetos orbitantes con los que se puede hacer colisión.
+-   Obstáculos: La dificultad de cada nivel va incrementando y se empezarán a añadir obstáculos, los cuales son otros objetos orbitantes con los que se puede hacer colisión. 
+-   En niveles avanzados puedes orbitar más de un objeto, el de mayor dificultad te dará más puntos.
 
 ![](images/image11.png)
 
@@ -199,9 +201,9 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 2.  Establecer la dinámica y mecánica
 3.  Elaborar ilustraciones
 4.  Programar el videojuego
-5.  Realizar scripts con parámetros físicos
-6.  Incorporar interacciones entre objetos
-7.  Incorporar interacción con el usuario
-8.  Investigar y agregar datos curiosos
-9.  Generar dashboard donde se muestran los datos recolectados
-10.  Incluir música y efectos de sonido
+    - Realizar scripts con parámetros físicos
+    - Incorporar interacciones entre objetos
+    - Incorporar interacción con el usuario
+5.  Investigar y agregar datos curiosos
+6.  Generar dashboard donde se muestran los datos recolectados
+7.  Incluir música y efectos de sonido

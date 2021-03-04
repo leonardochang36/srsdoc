@@ -118,13 +118,25 @@ This has the dual purpose of both contributing to a more accurate vision of the 
 
 Se incluirán diversas pantallas para el proyecto, como:
 - Juego
-  - Inicio
-  - Registro: Ingresar alias, edad y género :octocat: 
-  - Nivel: Elementos interactivos e indicador de puntaje
-  - Información: Mostrará información relevante sobre las carreras STEM
-  - Final: Enseñar información de la sesión al terminar el juego
+  - Registro: Ingresar alias, escolaridad, estado y género :octocat: .
+  - Menú principal: Muestra puntuación más alta y botones para jugar y ver créditos
+  - Nivel: Elementos interactivos e indicador de puntaje y vidas.
+  - Información: Mostrará información relevante sobre las carreras STEM. El jugador podra calificar la información o abandonar el juego.
+  - Final: Enseñar información de la sesión al terminar el juego.
+  - Créditos: Muestra los nombres del equipo, así como la propiedad intelectual de los recursos utilizados. 
 - Dashboard:
-  - TBD
+  - Pantalla de inicio de sesión: Se solicitará al administrador de datos ingresar su usuario y contraseña
+  - Visualización de datos: Mostrará datos estadísticos y demográficos de los usuarios utilizando gráficas. Hasta ahora se proponen las siguientes:
+    - Estado/región y cuál tiene más interés en cierta área
+    - Puntuación más alta por edades
+    - Área de STEM con más interés
+    - Minutos totales jugados
+    - Nivel de escolaridad e interés en área de STEM
+    - Distribución de edades con respecto a género
+    - Distribución de nivel de escolaridad de cada género
+    - Nivel de escolaridad por estado
+    - Cantidad de jugadores de cada género contra el total de cada estado
+
 
 ## Wireframes
 Wireframes are simple page layouts that outline the size and placement of elements, and features on a page. They are generally devoid of color, font styles, logos or any design elements.

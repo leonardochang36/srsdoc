@@ -52,17 +52,14 @@ Uno de los mayores logros de la humanidad ha sido llegar al espacio. En este jue
 1.  Pantalla título: Mostrará el puntaje del jugador, así como información del juego.
 2.  Registro de usuario: Permitirá al jugador registrar datos relevantes
 3.  Juego
-
 4.  Desafío de poner un objeto en órbita: Se mostrarán los controles para interactuar, así como los planetas y objetos. Igualmente se mostrarán las vidas disponibles y la puntuación.
 5.  Datos relevantes de una carrera STEM: Con botones para saber si le interesó al jugador
-
 6.  Créditos Finales
 
 ## Controles
 
-        TRAYECTORIA: Una flecha punteada desde la nave indicará la trayectoria de la misma. Esta puede ser ajustada utilizando las flechas izquierda y derecha en el teclado.
-
-        POTENCIA: El usuario mantendrá presionada la tecla enter llenando una barra que representa la velocidad que tiene la nave. Cuando ésta se suelte, la nave seguirá la trayectoria establecida con la velocidad indicada.
+        TRAYECTORIA Y POTENCIA: El jugador podrá mover la nave a partir de un punto pivote (estilo Angry Birds).
+Una flecha punteada desde la nave indicará la trayectoria y velocidad de la misma. Estas puede ser ajustada por el jugador arrastrando la nave. Cuando ésta se suelte, la nave seguirá la trayectoria y velocidades establecidas.
 
         MENÚ: Se incluirá un menú para pausar el juego, ver el puntaje y leer información relevante.
 
@@ -75,13 +72,14 @@ Física:
 
 Reglas:
 
--   El jugador cuenta con tres oportunidades para poner el objeto en órbita
--   Se puede ajustar el ángulo de lanzamiento y la propulsión inicial
--   Con cada nivel varía la masa de la nave, su distancia y la gravedad de cada planeta
--   Si no se logra poner la nave en órbita, esta choca contra el planeta o se va a la lejanía
--   La cantidad de puntos otorgados dependen de la cantidad de revoluciones orbitales conseguidas
+-   El jugador cuenta con tres oportunidades para poner el objeto en órbita.
+-   Se puede ajustar el ángulo de lanzamiento y la propulsión inicial.
+-   Con cada nivel varía la masa de la nave, su distancia y la gravedad de cada planeta.
+-   Si no se logra poner la nave en órbita, esta choca contra el planeta o se va a la lejanía.
+-   La cantidad de puntos otorgados dependen de la cantidad de revoluciones orbitales conseguidas.
+-   Existen _power-ups_, los cuales están relacionados con avances STEM y le dan al jugador puntos extra. Una vez que junta diez, consigue una vida extra.
 
-![](images/image17.png)
+![](pantallas/dinamica.png?AAAA)
 
 # Diseño de niveles
 ## Temas

@@ -51,8 +51,7 @@ El producto que desarrollamos es un videojuego, el cual se compone de una serie 
 ## Suposiciones y Dependencias
 <!-- There might be factors that impact your ability to fulfill the requirements outlined in this document. What are those factors? -->
 Algunos factores que puedan impactar nuestra habilidad para cumplir con los requerimientos enumerados en este documento incluyen:
-- Tiempo de implementación
-- Recursos tecnológicos disponibles
+- Tiempo - Recursos tecnológicos disponibles
 - Mantenimiento de componentes externos
 
 <!-- Are there any assumptions you’re making that could turn out to be false? You should include those here, as well. -->
@@ -82,7 +81,7 @@ Include user stories, which are short descriptions of a feature, told from the p
 |Título|Historia de usuario|Importancia|Notas|
 |---|---|---|---|
 |__Generar niveles__|_Como **jugador**, requiero obstáculos para divertirme mientras hago uso del software_|_Prioridad: 1_| Se generarán niveles con obstáculos y dinámicas cambiantes, como: variación de la masa y distancia de los objetos, cantidad de revoluciones orbitales requeridas, cantidad de planetas, entre otros. |
-|__Elementos interactivos__|_Como **jugador**, requiero elementos gráficos visualmente atractivos y controles que me permitan interactuar con los elementos_|_Prioridad: 1_| Las formas de interacción con los controles del juego deberán ser intuitivas y fáciles de usar |
+|__Elementos interactivos__|_Como **jugador**, requiero elementos gráficos visualmente atractivos y elementos con los que se pueda interactuar de manera intuitiva_|_Prioridad: 1_| Las formas de interacción con los controles del juego deberán ser intuitivas y fáciles de usar |
 |__Dinámica del juego__|_Como **jugador**, requiero que los objetos interactivos (naves y planetas) se comporten de manera predecible y realista_| _Prioridad: 2_ | Tener una dinámica físicamente realista es importante para cumplir con los objetivos de pensamiento crítico en este proyecto |
 |__Puntuación__|_Como **jugador** requiero tener registro de mi puntuación en diferentes niveles_|_Prioridad: 2_| Deberá definirse la puntuación otorgada para cada nivel |
 |__Tutorial__|_Como **jugador**, requiero una serie de instrucciones para saber cómo utilizar el software_|_Prioridad: 2_| Integrar tutorial al primer nivel |

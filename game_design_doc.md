@@ -117,6 +117,9 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 
 ## Gráficos
 
+### Ajolote
+<img src="images/ajolote.png"/>
+
 ### Planetas
 - Distintos colores y rayas
 

@@ -158,13 +158,7 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 
 ### Naves
 
-<img src="images/image20.png" alt="Graphic" width="150"/>
-<img src="images/rocket7.png" alt="Graphic" width="150"/>
-<img src="images/rocket3.png" alt="Graphic" width="150"/>
-<img src="images/rocket4.png" alt="Graphic" width="150"/>
-<img src="images/rocket5.png" alt="Graphic" width="150"/>
-<img src="images/rocket6.png" alt="Graphic" width="150"/>
-<img src="images/rocket2.png" alt="Graphic" width="150"/>
+<img src="images/image20.png" alt="Graphic" width="150"/> <img src="images/rocket7.png" alt="Graphic" width="150"/> <img src="images/rocket3.png" alt="Graphic" width="150"/> <img src="images/rocket4.png" alt="Graphic" width="150"/> <img src="images/rocket5.png" alt="Graphic" width="150"/> <img src="images/rocket6.png" alt="Graphic" width="150"/> <img src="images/rocket2.png" alt="Graphic" width="150"/>
 
 ### Satélites artificiales
 
@@ -186,8 +180,7 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 
 ### Asteroides
 
-<img src="images/asteroid1.png" alt="Graphic" width="150"/>
-<img src="images/asteroid2.png" alt="Graphic" width="150"/>
+<img src="images/asteroid1.png" alt="Graphic" width="150"/> <img src="images/asteroid2.png" alt="Graphic" width="150"/>
 
 ### Fondos espaciales
 

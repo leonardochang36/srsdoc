@@ -58,10 +58,11 @@ Uno de los mayores logros de la humanidad ha sido llegar al espacio. En este jue
 
 ## Controles
 
-        TRAYECTORIA Y POTENCIA: El jugador podrá mover la nave a partir de un punto pivote (estilo Angry Birds).
-Una flecha punteada desde la nave indicará la trayectoria y velocidad de la misma. Estas puede ser ajustada por el jugador arrastrando la nave. Cuando ésta se suelte, la nave seguirá la trayectoria y velocidades establecidas.
+        Trayectoria y potencia: El jugador podrá mover la nave a partir de un punto pivote (estilo Angry Birds). 
+<br>
+Una flecha punteada desde la nave indicará la trayectoria y velocidad de la misma. Éstas puede ser ajustadas por el jugador arrastrando la nave. <br> Cuando ésta se suelte, la nave seguirá la trayectoria y velocidades establecidas.
 
-        MENÚ: Se incluirá un menú para pausar el juego, ver el puntaje y leer información relevante.
+        Menú: Se incluirá un menú para pausar el juego, ver el puntaje y leer información relevante.
 
 # Mecánicas        
 
@@ -103,10 +104,28 @@ Reglas:
 -   Obstáculos: La dificultad de cada nivel va incrementando y se empezarán a añadir obstáculos, los cuales son otros objetos orbitantes con los que se puede hacer colisión. 
 -   En niveles avanzados puedes orbitar más de un objeto, el de mayor dificultad te dará más puntos.
 
-![](images/image11.png)
+    ![](images/image11.png)
 
 # Desarrollo
-Disclaimer: Esta sección la dejaremos pendiente hasta que entendamos mejor cómo usar C\# y Unity y, por lo tanto, podamos establecer las clases que requerimos para nuestro juego.
+ ## Clases Abstractas / Componentes
+- Pantallas
+    - Generador de niveles
+    - Pasar al siguiente nivel 
+
+- Planetas 
+    - Colisión
+    - Generación aleatoria
+
+- Cohete
+    - Movimiento de arrastre
+    - Lanzamiento
+    - Gravedad
+    
+- Power-ups y obstáculos
+    - Movimiento circular uniforme
+    - Modificar puntuación
+    - Modificar vidas
+
 
 # Gráficos
 
@@ -139,25 +158,35 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 
 ### Naves
 
-- Con propulsión (fueguito)
+<img src="images/image20.png" alt="Graphic" width="150"/>
 
-    <img src="images/image20.png" alt="Graphic" width="150"/>
+<img src="images/rocket7.png" alt="Graphic" width="150"/>
 
-- Sin propulsión
+<img src="images/rocket3.png" alt="Graphic" width="150"/>
 
-    ~ Pendiente ~
+<img src="images/rocket4.png" alt="Graphic" width="150"/>
+
+<img src="images/rocket5.png" alt="Graphic" width="150"/>
+
+<img src="images/rocket6.png" alt="Graphic" width="150"/>
+
+<img src="images/rocket2.png" alt="Graphic" width="150"/>
 
 ### Satélites artificiales
 
 - Con dos páneles solares
 
-    ~ Pendiente ~
+    <img src="images/satellite1.png" alt="Graphic" width="200"/>
+
+    <img src="images/satellite2.png" alt="Graphic" width="200"/>
+
+    <img src="images/satellite3.png" alt="Graphic" width="200"/>
 
 ### Satélites naturales
 
 - Forma de papa
 
-    ~ Pendiente ~
+    <img src="images/moon2.png" alt="Graphic" width="100"/>
 
 - Circulares
 
@@ -194,14 +223,19 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 
 # Calendario
 
-
-1.  Definir idea del videojuego
-2.  Establecer la dinámica y mecánica
-3.  Elaborar ilustraciones
-4.  Programar el videojuego
-    - Realizar scripts con parámetros físicos
-    - Incorporar interacciones entre objetos
-    - Incorporar interacción con el usuario
-5.  Investigar y agregar datos curiosos
-6.  Generar dashboard donde se muestran los datos recolectados
-7.  Incluir música y efectos de sonido
+1.  ✅ Definir idea del videojuego
+2.  ✅ Establecer la dinámica y mecánica
+3.  ✅ Elaborar ilustraciones
+4.  ⌛ Programar el videojuego
+    - ⌛ Realizar scripts con parámetros físicos
+    - ⌛ Incorporar interacciones entre objetos
+    - ⌛ Incorporar interacción con el usuario
+5.  🔜 Investigar y agregar datos curiosos
+    - 🔜 Realizar script para leer los datos y mostrar durante el juego
+6.  ⏸ Realizar conexión con la base de datos
+    - 🔜 Definir estructura y tablas necesarias
+    - ⏸ Programar servidor con base de datos
+    - ⏸ Programar conexión en el juego con base de datos
+    - ⏸ Actualización de datos
+6.  ⏸ Generar dashboard donde se muestran los datos recolectados
+7.  ⏸ Incluir música y efectos de sonido

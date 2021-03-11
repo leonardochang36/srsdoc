@@ -149,17 +149,5 @@ Wireframes are simple page layouts that outline the size and placement of elemen
 
 Wireframing is probably the most time-consuming step of this process and for some simple projects, it may be overkill. For complex projects where serious design thinking needs to happen, wireframes are an indispensable tool.
 
-
-
-
-Here are some popular tools for wireframing:
-- https://marvelapp.com/  
-- https://balsamiq.com/ 
-- https://jetstrap.com/ 
-- https://www.fluidui.com/ 
-- https://ninjamock.com/ 
-- https://www.justinmind.com/ 
-- https://moqups.com/
-
 # Referencias
 Movimiento STEAM. (2020). _¿Qué es movimiento STEAM?_ https://movimientosteam.org/

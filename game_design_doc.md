@@ -192,6 +192,12 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 
     <img src="images/image6.png" alt="Graphic" width="100"/>
 
+### Asteroides
+
+<img src="images/asteroid1.png" alt="Graphic" width="150"/>
+
+<img src="images/asteroid2.png" alt="Graphic" width="150"/>
+
 ### Fondos espaciales
 
 - Degradado radial

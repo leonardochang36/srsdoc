@@ -34,7 +34,7 @@
   * [Atributos del estilo](#atributos-del-estilo-1)
   * [Sonidos requeridos](#sonidos-requeridos)
 - [Calendario](#calendario)
-
+- [Demo](#demo)
 <br> 
 
 #  Diseño del Juego
@@ -234,3 +234,6 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
     - ⏸ Actualización de datos
 6.  ⏸ Generar dashboard donde se muestran los datos recolectados
 7.  ⏸ Incluir música y efectos de sonido
+
+# Demo
+ ![Demo](demos/success.gif)

@@ -1,6 +1,3 @@
-# SOFTWARE SPECIFICATION TEMPLATES
-> Change the above title with the name of your project.
-
 | Document | Purpose |
 | -------  | ------- |
 | [Software Requirements Specification](requirements_specification_doc.md) | A software requirements specification (SRS) is a document that describes what the software will do and how it will be expected to perform. It also describes the functionality the product needs to fulfill all stakeholders (business, users) needs. |

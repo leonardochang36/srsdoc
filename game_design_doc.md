@@ -23,10 +23,12 @@
 - [Gráficos](#gráficos)
   * [Atributos del estilo](#atributos-del-estilo)
   * [Gráficos](#gráficos-1)
+    + [Personaje](#personaje)
     + [Planetas](#planetas)
     + [Naves](#naves)
     + [Satélites artificiales](#satélites-artificiales)
     + [Satélites naturales](#satélites-naturales)
+    + [Asteroides](#asteroides)
     + [Fondos espaciales](#fondos-espaciales)
 - [Sonido/Música](#sonido-música)
   * [Atributos del estilo](#atributos-del-estilo-1)
@@ -136,7 +138,8 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 
 ## Gráficos
 
-<img src="images/ajolote.png" alt="ajolote">
+### Personaje 
+<img src="images/ajolote.png" alt="ajolote" width="200">
 
 ### Planetas
 - Distintos colores y rayas

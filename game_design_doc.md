@@ -1,4 +1,7 @@
 # Documento de diseño del juego
+<img src="images/logo.png" width="200">
+<br>
+<img src="images/teclogo.jpg" width="200">
 
 ## The sTEAM:
 - Lourdes Badillo, A01024232
@@ -12,6 +15,7 @@
   * [Resumen](#resumen)
   * [Dinámica del juego](#dinámica-del-juego)
   * [Mentalidad](#mentalidad)
+  * [Historia](#historia)
 - [Técnico](#técnico)
   * [Pantallas](#pantallas)
   * [Controles](#controles)
@@ -48,6 +52,11 @@ Uno de los mayores logros de la humanidad ha sido llegar al espacio. En este jue
 ## Mentalidad
         El propósito del juego es generar interés en las ciencias, especialmente cuando están siendo aplicadas al viaje interestelar. Para esto, se tiene que estar en un estado calmado y enfocado. Al ir viviendo la dinámica del juego el jugador se sentirá inspirado con las posibilidades que abre la ciencia, con ganas de avanzar al siguiente nivel para descubrir nuevos retos y soluciones a distintos problemas. Esto se va a lograr con gráficos que llaman la atención y con niveles que van cambiando poco a poco. Estos cambios constantes, junto con pequeñas piezas de información en cada nivel, van atrapando la atención del jugador y le informan sobre las aplicaciones de diferentes ramas de la ciencia.
 
+## Historia
+El juego se trata de un ajolote que viaja por el universo, buscando a su amigo perdido.<br> 
+Va moviéndose de planeta en planeta, orbitándolos con la esperanza de poder encontrarlo. <br>
+Según va avanzando en su viaje descubre cosas nuevas sobre las ciencias, el espacio y las personas responsables por muchas innovaciones modernas.
+
 # Técnico
 
 ## Pantallas
@@ -60,11 +69,11 @@ Uno de los mayores logros de la humanidad ha sido llegar al espacio. En este jue
 
 ## Controles
 
-        Trayectoria y potencia: El jugador podrá mover la nave a partir de un punto pivote (estilo Angry Birds). 
+- Trayectoria y potencia: El jugador podrá mover la nave a partir de un punto pivote (estilo Angry Birds). 
 <br>
 Una flecha punteada desde la nave indicará la trayectoria y velocidad de la misma. Éstas puede ser ajustadas por el jugador arrastrando la nave. <br> Cuando ésta se suelte, la nave seguirá la trayectoria y velocidades establecidas.
 
-        Menú: Se incluirá un menú para pausar el juego, ver el puntaje y leer información relevante.
+- Menú: Se incluirá un menú para pausar el juego, ver el puntaje y leer información relevante.
 
 # Mecánicas        
 
@@ -204,7 +213,7 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 
 ## Atributos del estilo
 
-        Queremos incluir música de fondo, inspirándonos en el soundtrack de Interstellar, compuesta por Hans Zimmer. Esto le agregará un sentimiento de misterio. Tomar como inspiración el siguiente audio: [https://youtu.be/IqiTJK\_uzUY?t=231](https://www.google.com/url?q=https://youtu.be/IqiTJK_uzUY?t%3D231&sa=D&source=editors&ust=1614291589987000&usg=AOvVaw1QD_ZHMADao77bPACILcH2) 
+Queremos incluir música de fondo inspirándonos en el soundtrack de Interstellar, compuesta por Hans Zimmer. Esto le agregará un sentimiento de misterio. Tomar como inspiración el siguiente audio: [https://youtu.be/IqiTJK\_uzUY?t=231](https://www.google.com/url?q=https://youtu.be/IqiTJK_uzUY?t%3D231&sa=D&source=editors&ust=1614291589987000&usg=AOvVaw1QD_ZHMADao77bPACILcH2) 
 
 ## Sonidos requeridos
 

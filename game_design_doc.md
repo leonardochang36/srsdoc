@@ -27,7 +27,7 @@
 - [Gráficos](#gráficos)
   * [Atributos del estilo](#atributos-del-estilo)
   * [Gráficos](#gráficos-1)
-    + [Personaje](#personaje)
+    + [Astronautas](#astronautas)
     + [Planetas](#planetas)
     + [Naves](#naves)
     + [Satélites artificiales](#satélites-artificiales)
@@ -147,8 +147,30 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 
 ## Gráficos
 
-### Personaje 
-<img src="images/ajolote.png" alt="ajolote" width="200">
+### Astronautas
+- Distintas poses
+
+    <img src="images/astronaut.png" alt="astronaut" height="200">
+
+    <img src="images/astronautV2.png" alt="astronaut" height="200">
+
+    <img src="images/astronautV3.png" alt="astronaut" height="200">
+
+    <img src="images/astronautV4.png" alt="astronaut" height="200">
+
+- Distintos colores
+
+    <img src="images/astronaut.png" alt="astronaut" height="200">
+
+    <img src="images/astronaut1.png" alt="astronaut" height="200">
+
+    <img src="images/astronaut5.png" alt="astronaut" height="200"> 
+
+    <img src="images/astronaut2.png" alt="astronaut" height="200">
+
+    <img src="images/astronaut3.png" alt="astronaut" height="200">
+
+    <img src="images/astronaut4.png" alt="astronaut" height="200">
 
 ### Planetas
 - Distintos colores y rayas

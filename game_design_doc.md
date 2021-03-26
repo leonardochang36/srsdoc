@@ -152,7 +152,7 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 
     <img src="images/astronaut.png" alt="astronaut" height="200">
 
-    <img src="images/astronautV2.png" alt="astronaut" height="200">
+    <img src="images/astronautV2.png" alt="astronaut saying hi" height="200">
 
     <img src="images/astronautV3.png" alt="astronaut" height="200">
 

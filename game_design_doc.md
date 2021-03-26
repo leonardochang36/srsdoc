@@ -150,27 +150,27 @@ Nos inspiramos en los gráficos que utiliza Kurzgesagt para sus vídeos, ya que 
 ### Astronautas
 - Distintas poses
 
-    <img src="images/astronaut.png" alt="astronaut" height="200">
+    <img src="images/Astronaut.png" alt="astronaut" height="200">
 
-    <img src="images/astronautV2.png" alt="astronaut saying hi" height="200">
+    <img src="images/AstronautV2.png" alt="astronaut saying hi" height="200">
 
-    <img src="images/astronautV3.png" alt="astronaut" height="200">
+    <img src="images/AstronautV3.png" alt="astronaut" height="200">
 
-    <img src="images/astronautV4.png" alt="astronaut" height="200">
+    <img src="images/AstronautV4.png" alt="astronaut" height="200">
 
 - Distintos colores
 
-    <img src="images/astronaut.png" alt="astronaut" height="200">
+    <img src="images/Astronaut.png" alt="astronaut" height="200">
 
-    <img src="images/astronaut1.png" alt="astronaut" height="200">
+    <img src="images/Astronaut1.png" alt="astronaut" height="200">
 
-    <img src="images/astronaut5.png" alt="astronaut" height="200"> 
+    <img src="images/Astronaut5.png" alt="astronaut" height="200"> 
 
-    <img src="images/astronaut2.png" alt="astronaut" height="200">
+    <img src="images/Astronaut2.png" alt="astronaut" height="200">
 
-    <img src="images/astronaut3.png" alt="astronaut" height="200">
+    <img src="images/Astronaut3.png" alt="astronaut" height="200">
 
-    <img src="images/astronaut4.png" alt="astronaut" height="200">
+    <img src="images/Astronaut4.png" alt="astronaut" height="200">
 
 ### Planetas
 - Distintos colores y rayas

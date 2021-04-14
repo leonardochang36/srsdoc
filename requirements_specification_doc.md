@@ -125,15 +125,14 @@ Se incluirán diversas pantallas para el proyecto, como:
 - Dashboard:
   - Pantalla de inicio de sesión: Se solicitará al administrador de datos ingresar su usuario y contraseña
   - Visualización de datos: Mostrará datos estadísticos y demográficos de los usuarios utilizando gráficas. Hasta ahora se proponen las siguientes:
-    - Estado/región y cuál tiene más interés en cierta área
-    - Puntuación más alta por edades
-    - Área de STEM con más interés
-    - Minutos totales jugados
+    - Interés por área STEM
     - Nivel de escolaridad e interés en área de STEM
-    - Distribución de edades con respecto a género
+    - Distribución de géneros
+    - Nivel de escolaridad
+    - Distribución de edades
+    - Interés en área de STEM por género
+    - Estado/región y cuál tiene más interés en cierta área
     - Distribución de nivel de escolaridad de cada género
-    - Nivel de escolaridad por estado
-    - Cantidad de jugadores de cada género contra el total de cada estado
 
 ![](pantallas/registro-nombre.PNG)
 ![](pantallas/registro-edad.PNG)

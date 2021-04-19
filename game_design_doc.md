@@ -47,7 +47,8 @@
 Uno de los mayores logros de la humanidad ha sido llegar al espacio. En este juego, el usuario tendrá que poner naves espaciales en la órbita de distintos planetas, comprendiendo el impacto de STEM en el mundo.
 
 ## Dinámica del juego
-        Se generarán niveles de forma automática en los que el jugador ajustará la potencia de la nave, así como el ángulo de su trayectoria con el objetivo de que se mantenga en órbita. Para cada nivel se variará la masa de la nave y fuerza de gravedad, y se incluirán obstáculos con el fin de que el jugador use pensamiento crítico y análisis para resolver la problemática.  
+        Se generarán niveles de forma automática en los que el jugador ajustará la potencia de la nave, así como el ángulo de su trayectoria con el objetivo de que se mantenga en órbita. <br>
+En cada nivel se variará la fuerza de gravedad, y se incluirán obstáculos con el fin de que el jugador use pensamiento crítico y análisis para resolver la problemática.  
 
 ## Mentalidad
         El propósito del juego es generar interés en las ciencias, especialmente cuando están siendo aplicadas al viaje interestelar. Para esto, se tiene que estar en un estado calmado y enfocado. Al ir viviendo la dinámica del juego el jugador se sentirá inspirado con las posibilidades que abre la ciencia, con ganas de avanzar al siguiente nivel para descubrir nuevos retos y soluciones a distintos problemas. Esto se va a lograr con gráficos que llaman la atención y con niveles que van cambiando poco a poco. Estos cambios constantes, junto con pequeñas piezas de información en cada nivel, van atrapando la atención del jugador y le informan sobre las aplicaciones de diferentes ramas de la ciencia.
@@ -60,20 +61,20 @@ Según va avanzando en su viaje, descubre cosas nuevas sobre las ciencias, el es
 # Técnico
 
 ## Pantallas
-1.  Pantalla título: Mostrará el puntaje del jugador, así como información del juego.
+1.  Pantalla título: Muestra una pequeña animación similar a los niveles del juego y un botón para empezar a jugar.
 2.  Registro de usuario: Permitirá al jugador registrar datos relevantes
-3.  Juego
+3.  Juego: Cada nivel incluye un planeta, una nave y se añadirán powerups y obstáculos. 
 4.  Desafío de poner un objeto en órbita: Se mostrarán los controles para interactuar, así como los planetas y objetos. Igualmente se mostrarán las vidas disponibles y la puntuación.
-5.  Datos relevantes de una carrera STEM: Con botones para saber si le interesó al jugador
-6.  Créditos Finales
+5.  Datos relevantes de una carrera STEM: Con botones para saber si le interesó al jugador.
+6.  Pantalla Final: Muestra el puntaje del jugador y un botón para volver a jugar.
 
 ## Controles
 
-- Trayectoria y potencia: El jugador podrá mover la nave a partir de un punto pivote (estilo Angry Birds). 
-<br>
-Una flecha punteada desde la nave indicará la trayectoria y velocidad de la misma. Éstas puede ser ajustadas por el jugador arrastrando la nave. <br> Cuando ésta se suelte, la nave seguirá la trayectoria y velocidades establecidas.
+- Trayectoria y potencia: El jugador podrá mover la nave a partir de un punto pivote (como en Angry Birds). La trayectoria y velocidad pueden ser ajustadas por el jugador arrastrando la nave. <br> Cuando ésta se suelte, la nave seguirá la trayectoria y velocidades establecidas.
 
-- Menú: Se incluirá un menú para pausar el juego, ver el puntaje y leer información relevante.
+- Información: En cada nivel se muestra el número de nivel, la cantidad de vidas y el puntaje. 
+
+- Datos curiosos: Después de cada nivel, se muestra un dato curioso relacionado con STEM. El jugador puede indicar si le interesó o no, por medio de botones. 
 
 # Mecánicas        
 
@@ -84,12 +85,12 @@ Física:
 
 Reglas:
 
--   El jugador cuenta con tres oportunidades para poner el objeto en órbita.
+-   El jugador podrá intentar poner la nave en órbita, siempr ey cuando tenga vidas.
 -   Se puede ajustar el ángulo de lanzamiento y la propulsión inicial.
--   Con cada nivel varía la masa de la nave, su distancia y la gravedad de cada planeta.
+-   Con cada nivel varía la gravedad de cada planeta.
 -   Si no se logra poner la nave en órbita, esta choca contra el planeta o se va a la lejanía.
--   La cantidad de puntos otorgados dependen de la cantidad de revoluciones orbitales conseguidas.
--   Existen _power-ups_, los cuales están relacionados con avances STEM y le dan al jugador puntos extra. Una vez que junta diez, consigue una vida extra.
+-   La cantidad de puntos otorgados dependen de haber puesto la nave en órbita, de haber obtenido _power-ups_ y de no haber colisionado con obstáculos. 
+-   Existen _power-ups_, los cuales están relacionados con avances STEM y le dan al jugador puntos extra.
 
 ![](pantallas/dinamica.png?AAAA)
 
@@ -110,7 +111,7 @@ Reglas:
             - Planetas
 
 ## Características de cada nivel
--   Objeto que se lanza: En cada nivel el jugador tiene como objetivo poner un objeto en órbita, este puede ser una nave espacial, un satélite de comunicación o incluso un satélite natural.
+-   Objeto que se lanza: En cada nivel el jugador tiene como objetivo poner un una nave en órbita.
 -   Planeta: Todos los niveles tienen un planeta para el cual varía su masa, tamaño y color.
 -   Obstáculos: La dificultad de cada nivel va incrementando y se empezarán a añadir obstáculos, los cuales son otros objetos orbitantes con los que se puede hacer colisión. 
 -   En niveles avanzados puedes orbitar más de un objeto, el de mayor dificultad te dará más puntos.

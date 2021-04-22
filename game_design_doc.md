@@ -114,7 +114,6 @@ Reglas:
 -   Objeto que se lanza: En cada nivel el jugador tiene como objetivo poner un una nave en órbita.
 -   Planeta: Todos los niveles tienen un planeta para el cual varía su masa, tamaño y color.
 -   Obstáculos: La dificultad de cada nivel va incrementando y se empezarán a añadir obstáculos, los cuales son otros objetos orbitantes con los que se puede hacer colisión. 
--   En niveles avanzados puedes orbitar más de un objeto, el de mayor dificultad te dará más puntos.
 
     ![](images/image11.png)
 
@@ -257,15 +256,15 @@ Queremos incluir música de fondo inspirándonos en el soundtrack de Interstell
     - ⌛ Realizar scripts con parámetros físicos
     - ⌛ Incorporar interacciones entre objetos
     - ⌛ Incorporar interacción con el usuario
-5.  🔜 Investigar y agregar datos curiosos
-    - 🔜 Realizar script para leer los datos y mostrar durante el juego
-6.  ⏸ Realizar conexión con la base de datos
-    - 🔜 Definir estructura y tablas necesarias
-    - ⏸ Programar servidor con base de datos
-    - ⏸ Programar conexión en el juego con base de datos
-    - ⏸ Actualización de datos
-6.  ⏸ Generar dashboard donde se muestran los datos recolectados
-7.  ⏸ Incluir música y efectos de sonido
+5.  ✅ Investigar y agregar datos curiosos
+    - ✅ Realizar script para leer los datos y mostrar durante el juego
+6.  ✅ Realizar conexión con la base de datos
+    - ✅ Definir estructura y tablas necesarias
+    - ✅ Programar servidor con base de datos
+    - ✅ Programar conexión en el juego con base de datos
+    - ✅ Actualización de datos
+6.  ✅ Generar dashboard donde se muestran los datos recolectados
+7.  ✅ Incluir música y efectos de sonido
 
 # Demo
  ![Demo](demos/success.gif)

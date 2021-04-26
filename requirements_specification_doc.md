@@ -22,7 +22,7 @@
 Desarrollar un videojuego que inspire a las y los jóvenes a estudiar carreras relacionadas con STEM y a desarrollar competencias relacionadas con las mismas. 
 
 ## Alcance
-- Descripción: Un videojuego de mini-puzzles, donde el usuario deberá poner objetos en la órbita de un planeta. 
+- Descripción: Un videojuego de mini-puzzles, donde el usuario deberá poner objetos en la órbita de un planeta, siguiendo las leyes de gravitación y evitando los obstáculos. 
 - Beneficios: Fomentar el interés en carreras STEAM como oportunidades para impactar positivamente al mundo.
 - Meta: Difundir la importancia de las carreras STEM y mostrar ejemplos de lo que se ha logrado gracias a ellas. 
 - Objetivos: Que más gente estudie carreras STEM.
@@ -43,9 +43,7 @@ El producto que desarrollamos es un videojuego, el cual se compone de una serie 
 
 - __Jugador__: Niñas y niños de entre 9-12 años y jóvenes de entre 13-19 años de edad, cursando algún nivel de estudios que mediante el juego podrán aprender acerca del impacto de las carreras STEM en el mundo. Necesita un videojuego con dinámicas sencillas y entretenidas, así como una manera de recabar sus intereses personales para realizarle sugerencias acertadas. 
 
-- __Administrador de datos__: Tendrá acceso a todos los datos estadísticos de los jugadores, con el fin de recabar información y tomar decisiones acertadas. Necesita acceso a los datos recopilados de los jugadores, al igual que gráficos que representen dichos datos y estadísticas.
-
-- __Administrador de juego__: Se encargará del funcionamiento adecuado del juego, así como de todos los sistemas de comunicación e información. Necesita datos de estatus de la base de datos, así como de la integridad de la información y los usuarios registrados. 
+- __Administrador de datos__: Tendrá acceso a todos los datos estadísticos de los jugadores, con el fin de recabar información y tomar decisiones acertadas. Necesita acceso a los datos recopilados de los jugadores, al igual que gráficos que representen dichos datos y estadísticas. Podrá realizar operaciones básicas de lectura y escritura en la base de datos. 
 
 ## Suposiciones y Dependencias
 <!-- There might be factors that impact your ability to fulfill the requirements outlined in this document. What are those factors? -->
@@ -82,12 +80,11 @@ Include user stories, which are short descriptions of a feature, told from the p
 |__Generar niveles__|_Como **jugador**, requiero obstáculos para divertirme mientras hago uso del software_|_Prioridad: 1_| Se generarán niveles con obstáculos y dinámicas cambiantes, como: variación de la masa y distancia de los objetos, cantidad de revoluciones orbitales requeridas, cantidad de planetas, entre otros. |
 |__Elementos interactivos__|_Como **jugador**, requiero elementos gráficos visualmente atractivos y elementos con los que se pueda interactuar de manera intuitiva_|_Prioridad: 1_| Las formas de interacción con los controles del juego deberán ser intuitivas y fáciles de usar |
 |__Dinámica del juego__|_Como **jugador**, requiero que los objetos interactivos (naves y planetas) se comporten de manera predecible y realista_| _Prioridad: 2_ | Tener una dinámica físicamente realista es importante para cumplir con los objetivos de pensamiento crítico en este proyecto |
-|__Puntuación__|_Como **jugador** requiero tener registro de mi puntuación en diferentes niveles_|_Prioridad: 2_| Deberá definirse la puntuación otorgada para cada nivel |
-|__Tutorial__|_Como **jugador**, requiero una serie de instrucciones para saber cómo utilizar el software_|_Prioridad: 2_| Integrar tutorial al primer nivel |
+|__Puntuación__|_Como **jugador** requiero tener registro de mi puntuación en diferentes niveles_|_Prioridad: 2_| Deberá definirse la puntuación otorgada para cada nivel. Esta deberá ser visible para el usuario. |
+|__Tutorial__|_Como **jugador**, requiero una serie de instrucciones para saber cómo utilizar el software_|_Prioridad: 2_| Integrar tutorial al primer nivel explicando la mecánica básica del juego. |
 |__Recopilación de datos__|_Como **administrador de datos**, requiero que el software recopile datos para poder acceder a ellos de una manera clara y concisa_|_Prioridad: 2_| La visualización de datos puede ser por medio de un dashboard |
 |__Información STEM__|_Como **jugador**, requiero aprender sobre las posibilidades de las carreras STEM para poder tomar una decisión vocacional informada_|_Prioridad: 3_|
 |__Progreso del juego__|_Como **jugador**, requiero conocer el progreso que llevo en el juego (vidas, puntuación, nivel) para tener una experiencia más gratificante usando el software_|_Prioridad: 3_|
-|__Estatus del juego__|_Como **administrador de juego**, requiero que el software tenga forma de indicar su estatus (activo, con fallas, etc) con el fin de dar mantenimiento_|_Prioridad: 3_|
 
 ## Requerimientos de Interfaz Externa
 <!-- External interface requirements are types of functional requirements. They outline how your product will interface with other components or systems. -->
@@ -100,14 +97,14 @@ De los requerimientos anteriormente enumerados, puede identificarse que será ne
 
 ## Requerimientos No Funcionales
 <!-- Non-functional requirements are restrictions on the system or the development process. Non-functional requirements can be more critical than functional ones. If they are not met, the system is useless! -->
-- Aviso de privacidad
+<!-- - Aviso de privacidad -->
 - Clasificación E (contenido apto para todas las edades)
 - Todos los componentes deben tener un estilo artístico unificado
 - La partida promedio por usuario no debe exceder los 10 minutos
-- Ejecución en sistemas con bajos recursos como laptops o tabletas mediante un navegador
+- Ejecución en sistemas con bajos recursos como laptops
 - Entregar software terminado a finales de abril
-- Usar una metodología SCRUM
-- Se respectará la propiedad intelectual de todo en este mundo :D
+- Usar una metodología ágil
+- Se respetará la propiedad intelectual de todo en este mundo :D
 
 # Pantallas
 <!-- Identifying the individual screens (for an app), or pages (for a website) are where a product’s shape starts to become clear. They are a distillation of the user stories into a set of distinct sections that satisfy the needs and behaviors identified so far. The process of outlining an application’s screens may also highlight any requirements or considerations that have been overlooked up to this point.
@@ -117,22 +114,20 @@ This has the dual purpose of both contributing to a more accurate vision of the 
 Se incluirán diversas pantallas para el proyecto, como:
 - Juego
   - Registro: Ingresar alias, escolaridad, estado y género :octocat: .
-  - Menú principal: Muestra puntuación más alta y botones para jugar y ver créditos
+  - Menú principal: Muestra puntuación más alta y botones para jugar y ver créditos.
   - Nivel: Elementos interactivos e indicador de puntaje y vidas.
   - Información: Mostrará información relevante sobre las carreras STEM. El jugador podra calificar la información o abandonar el juego.
-  - Final: Enseñar información de la sesión al terminar el juego.
-  - Créditos: Muestra los nombres del equipo, así como la propiedad intelectual de los recursos utilizados. 
+  - Final: Enseñar información de la sesión al terminar el juego. Da la opción de jugar de nuevo o regresar al menú principal
+  - Créditos: Muestra la propiedad intelectual de los recursos utilizados. 
 - Dashboard:
-  - Pantalla de inicio de sesión: Se solicitará al administrador de datos ingresar su usuario y contraseña
-  - Visualización de datos: Mostrará datos estadísticos y demográficos de los usuarios utilizando gráficas. Hasta ahora se proponen las siguientes:
+  - Visualización de datos: Mostrará datos estadísticos y demográficos de los usuarios utilizando gráficas. Se enseñarán las siguientes :
     - Interés por área STEM
-    - Nivel de escolaridad e interés en área de STEM
     - Distribución de géneros
+    - Nivel de escolaridad por interés en área de STEM
     - Nivel de escolaridad
-    - Distribución de edades
     - Interés en área de STEM por género
-    - Estado/región y cuál tiene más interés en cierta área
-    - Distribución de nivel de escolaridad de cada género
+    - Distribución de edades
+    - Mapa con distribución de género por estado
 
 ![](pantallas/registro-nombre.PNG)
 ![](pantallas/registro-edad.PNG)
